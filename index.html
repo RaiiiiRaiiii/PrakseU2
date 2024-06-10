@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>2. Uzdevums - Quiz Lapa</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" type="text/css" href="./css/components.css">
+        
+        <script src="./js/main.js" defer></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="quiz">
+                <div id="timeline">
+                    <div id="progress">
+                        <p id="counter">1/10</p>
+                    </div>
+                </div>
+
+                <div id="questions">
+                    <p id="question">Lorem ipsum aj tak es nez kaa tas latinu strunts rakstaas</p>
+                    <table>
+                        <tr>
+                            <td>
+                                <button id="a1" class="answer" onclick="answer(1)">Atbilde 1</button>
+                            </td>
+                            <td>
+                                <button id="a2" class="answer" onclick="answer(2)">Atbilde 2</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="a3" class="answer" onclick="answer(3)">Atbilde 3</button>
+                            </td>
+                            <td>
+                                <button id="a4" class="answer" onclick="answer(4)">Atbilde 4</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="results">
+                <h1>Rezultāti</h1>
+                <p id="results-text">Jūs atbildējāt uz 0 no 0 jautājumiem pareizi!</p>
+                <button onclick="restart()">Sākt no jauna</button>
+            </div>
+        </div>
+    </body>
+</html>
